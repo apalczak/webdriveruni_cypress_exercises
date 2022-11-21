@@ -3,7 +3,7 @@
 describe("Test To-Do List on WebDriverUniversity page", () => {
     beforeEach(() => {
         cy.fixture("to-do-list").as("to-do-list");
-        cy.visit("http://www.webdriveruniversity.com/");
+        cy.visit("");
         cy.get("#to-do-list")
             .invoke("removeAttr", "target")
             .click({ force: true });

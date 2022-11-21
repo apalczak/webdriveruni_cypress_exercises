@@ -5,7 +5,7 @@ describe("Test Contact Us form on WebDriverUniversity page", () => {
 
     beforeEach(() => {
         cy.fixture("contact-us").as("contact-us");
-        cy.visit("http://www.webdriveruniversity.com/");
+        cy.visit("");
         cy.get("#contact-us")
             .scrollIntoView()
             .invoke("removeAttr", "target")
