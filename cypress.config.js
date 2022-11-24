@@ -6,5 +6,7 @@ module.exports = defineConfig({
             // implement node event listeners here
         },
         baseUrl: "http://www.webdriveruniversity.com/",
+        screenshotOnRunFailure: true,
+        trashAssetsBeforeRuns: true,
     },
 });

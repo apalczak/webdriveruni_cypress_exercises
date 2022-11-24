@@ -1,0 +1,13 @@
+{
+    "radioButtonStates": [
+        { "name": "lettuce", "disabled": false },
+        { "name": "cabbage", "disabled": true },
+        { "name": "pumpkin", "disabled": false }
+    ],
+    "dropdownStates": [
+        { "name": "apple", "disabled": false },
+        { "name": "orange", "disabled": true },
+        { "name": "pear", "disabled": false },
+        { "name": "grape", "disabled": false }
+    ]
+}
