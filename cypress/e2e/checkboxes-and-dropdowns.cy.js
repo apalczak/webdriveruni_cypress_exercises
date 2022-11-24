@@ -54,7 +54,7 @@ describe("Test checkboxes, dropdowns and radio-buttons", () => {
         //     .check()
         //     .should("be.checked");
     });
-    it.only("Checks if item from radio/dropdown is disabled", () => {
+    it("Checks if item from radio/dropdown is disabled", () => {
         cy.fixture("is-disabled").then((isDisabled) => {
             isDisabled.radioButtonStates.forEach((item) => {
                 cy.get(
