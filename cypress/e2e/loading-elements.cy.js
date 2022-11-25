@@ -1,5 +1,3 @@
-///<reference types="cypress"/>
-
 describe("Test accordion elements", () => {
     beforeEach(() => {
         cy.visit("");

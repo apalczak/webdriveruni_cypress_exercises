@@ -1,5 +1,3 @@
-///<reference types="cypress"/>
-
 describe("Test checkboxes, dropdowns and radio-buttons", () => {
     beforeEach(() => {
         cy.visit("");

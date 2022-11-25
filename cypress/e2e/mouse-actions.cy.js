@@ -1,5 +1,3 @@
-///<reference types="cypress"/>
-
 describe("Preform mouse drag and drop actions", () => {
     beforeEach(() => {
         cy.visit("/Actions/index.html");

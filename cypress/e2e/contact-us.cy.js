@@ -1,5 +1,3 @@
-///<reference types="cypress"/>
-
 describe("Test Contact Us form on WebDriverUniversity page", () => {
     before(() => {});
 

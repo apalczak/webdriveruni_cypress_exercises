@@ -1,5 +1,3 @@
-///<reference types="cypress"/>
-
 describe("Test To-Do List on WebDriverUniversity page", () => {
     beforeEach(() => {
         cy.fixture("to-do-list").as("to-do-list");

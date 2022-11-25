@@ -1,5 +1,3 @@
-///<reference types="cypress"/>
-
 describe("Scrolling", () => {
     beforeEach(() => {
         cy.visit("/Scrolling/index.html");
